@@ -45,12 +45,12 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import menu from '../../assets/menu.png';
-import logo from '../../assets/logo.png';
+import mainLogo from '../../assets/mainLogo.png';
 import searchIcon from '../../assets/search.png';
 import upload from '../../assets/upload.png';
 import more from '../../assets/more.png';
 import notification from '../../assets/notification.png';
-import profile_icon from '../../assets/jack.png';
+import profile_icon from '../../assets/sadvi.jpg';
 import { Link, useNavigate } from 'react-router-dom';
 import { API_KEY } from '../../data';
 
@@ -105,7 +105,7 @@ const Navbar = ({ setSidebar, setSearchResults }) => {
                     src={menu}
                     alt='menu'
                 />
-                <Link to='/'><img className='logo' src={logo} alt='logo' /></Link>
+                <Link to='/'><img className='logo' src={mainLogo} alt='logo' /></Link>
             </div>
 
             <div className='nav-middle flex-div'>

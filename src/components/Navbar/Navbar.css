@@ -12,7 +12,9 @@ nav{
     margin-right: 25px;
 }
 .nav-left .logo{
-    width: 130px;
+    width: 150px;
+    display: flex;
+    align-items: center;
 }
 .nav-middle .search-box{
     border: 1px solid #ccc;
