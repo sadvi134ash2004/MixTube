@@ -72,8 +72,13 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
     .search-results {
         gap: 32px;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

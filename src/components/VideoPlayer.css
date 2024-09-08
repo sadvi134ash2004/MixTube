@@ -94,3 +94,9 @@
     margin-right: 6px;
     vertical-align: middle;
 }
+@media(max-width:900px){
+    .video-player iframe {
+        margin-left: 2%;
+        margin-right:2%;
+    }
+}
